@@ -15,7 +15,7 @@ Welcome to StoryBooks, a simple web application where you can create, read, and 
 - Passport.js
 - Google OAuth 2.0
 - Handlebars.js
-- Bootstrap
+
 
 ## Getting Started
 
