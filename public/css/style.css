@@ -3,7 +3,7 @@ p {
 }
 
 .login-container {
-  width: 450px; /* Increased width from 410px to 450px */
+  width: 450px;
   margin-top: 50px;
   text-align: center;
 }
@@ -27,7 +27,7 @@ p {
 
 .input-group {
   display: table;
-  width: 60%; /* increased width from 60% to 70% */
+  width: 60%; 
 }
 
 .input-group .input-field,
@@ -40,7 +40,7 @@ p {
 }
 
 body {
-  background-color: #006d77/* blue background color for the page */
+  background-color: #006d77
 }
 
 .search-form {
@@ -48,7 +48,7 @@ body {
 }
 
 .input-group {
-  background-color: #028090; /* beige background color for the search input */
+  background-color: #028090; 
   padding: 10px;
   border-radius: 5px;
 }
@@ -62,23 +62,23 @@ body {
   padding: 10px;
   border: none;
   border-radius: 2px;
-  width: 90%; /* increased width from 40% to 50% */
-  background-color: #0000006c; /* dark blue background color */
-  opacity: 1.8; /* 80% opacity */}
-
+  width: 90%; 
+  background-color: #0000006c; 
+  opacity: 1.8; 
+}
 .input-group-addon.btn {
-  background-color: #004c6f; /* darker blue background color for the search button */
-  color: #dedede; /* white text color for the search button */
+  background-color: #004c6f; 
+  color: #dedede; 
   border: none;
   border-radius: 5px;
   padding: 1px 10px;
   cursor: pointer;
-  position: relative; /* added */
-  top: -7px; /* added to move it up a little bit */
-  right: -10px; /* added to move it to the right a little bit */
+  position: relative;
+  top: -7px;
+  right: -10px; 
 }
 .input-group-addon.btn:hover {
-  background-color: #006edc; /* even darker blue background color on hover */
+  background-color: #006edc; 
 }
 
 .card {
