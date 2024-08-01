@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StoryBooks</title>
+	<style>
+		body {
+			background-color: #006d77; /* New background color */
+		    background-size: 300px; 
+			background-repeat: repeat;
+			height: 100vh;
+			margin: 0;
+		}
+		
+		h3 {
+			color: #000; /* Black text for the title */
+			font-family: 'Playfair Display', serif;
+			font-size: 36px;
+			font-weight: 500;
+			margin-bottom: 20px;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the title */
+		}
+		
+.section {
+    padding: 20px;
+    background-color: #001923(0, 0, 0, 0.8); /* Dark brown color */
+    border-radius: 10px;
+    box-shadow: 
+        6px 6px 12px rgba(0, 0, 0, 0.6), 
+        4px 4px 8px rgba(0, 0, 0, 0.4), 
+        2px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadows for a less pronounced 3D effect */
+}
+.lead {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000; 
+    background-color: #ccd5ae; 
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 
+        6px 6px 12px rgba(0, 0, 0, 0.6), 
+        4px 4px 8px rgba(0, 0, 0, 0.4), 
+        2px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadows for a less pronounced 3D effect */
+}
+		.btn {
+			background-color: #05668d; /* Dark brown background for the button */
+			border: 1px solid #444; /* Dark gray border for the button */
+			padding: 10px;
+			border-radius: 5px;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+			color: #fff; /* White text for the button */
+			display: inline-flex;
+			align-items: center;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the button text */
+		}
+		
+		.fab {
+			font-size: 24px;
+			margin-right: 10px;
+			color: #fff; /* White icon color */
+		}
+	</style>
+</head>
+<body>
+	<h3><i class="fas fa-book-reader"></i> StoryBooks</h3>
+	<div class="section">
+		<p class="lead">The story starts here, but the adventure is yours to write.</p>
+	</div>
+	<div class="divider"></div>
+	<div class="section">
+		<a href="/auth/google" class="btn">
+			<i class="fab fa-google left"></i>
+			Log In With Google
+		</a>
+	</div>
+</body>
+</html>

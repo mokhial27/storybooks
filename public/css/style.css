@@ -1,0 +1,117 @@
+p {
+  margin: 10px 0 !important;
+}
+
+.login-container {
+  width: 450px; /* Increased width from 410px to 450px */
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fa-small {
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 180px;
+}
+
+.fa-large {
+  font-size: 26px !important;
+}
+
+.input-group {
+  display: table;
+  width: 60%; /* increased width from 60% to 70% */
+}
+
+.input-group .input-field,
+.input-group .input-group-addon {
+  display: table-cell;
+}
+
+.search-form {
+  margin: 40px 0;
+}
+
+body {
+  background-color: #006d77/* blue background color for the page */
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  background-color: #028090; /* beige background color for the search input */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-field {
+  margin-bottom: 0;
+}
+
+
+.input-field input[type="search"] {
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  width: 90%; /* increased width from 40% to 50% */
+  background-color: #0000006c; /* dark blue background color */
+  opacity: 1.8; /* 80% opacity */}
+
+.input-group-addon.btn {
+  background-color: #004c6f; /* darker blue background color for the search button */
+  color: #dedede; /* white text color for the search button */
+  border: none;
+  border-radius: 5px;
+  padding: 1px 10px;
+  cursor: pointer;
+  position: relative; /* added */
+  top: -7px; /* added to move it up a little bit */
+  right: -10px; /* added to move it to the right a little bit */
+}
+.input-group-addon.btn:hover {
+  background-color: #006edc; /* even darker blue background color on hover */
+}
+
+.card {
+  margin-top: 30px;
+  margin-right: 46px; 
+  background-color:#ffffff; 
+  font-weight:  300;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h5 {
+  margin-top: 0;
+}
+
+.chip {
+  margin-top: 10px;
+}
+
+.chip img {
+  width: 28px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.sidenav {
+  background-color: #03364a;
+}
+
+

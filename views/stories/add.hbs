@@ -1,0 +1,32 @@
+<style>
+  body {
+    background-color: #006d77;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+</style>
+
+<h3 style="font-family: 'Playfair Display', serif; font-size:45px; font-weight: bold; background-color: #00424a; padding: 7px; color: #FFFFFF;">Set Up Your Story:</h3>
+   <div class="row">
+    <form action="/stories" method="POST" class="col s12">
+     <div class="row">
+  <div class="input-field">
+    <input type="text" id="title" name="title" style="font-family: 'Merriweather', serif; font-size: 29px; line-height: 1.5; color: #FFFFFF; padding: 10px;">
+<label for="title" style="font-family: 'Playfair Display', serif; font-weight: bold; padding: 7px; color: #ffffff; font-size: 26px; line-height: 1; background-color: #00424a;  border-radius: 5px;">Title</label>  
+      <div class="row">
+            <div class="input-field">
+                <select id="status" name="status">
+                    <option value="public" selected>Public</option>
+                    <option value="private">Private</option>
+                </select>
+<label for="status" style="font-size: 1em; color: #ffffff; background-color: #00424a; border-radius: 1px;">Status</label>     
+        </div>
+<div class="row">
+  <div class="input-field">
+<h5 style="font-family: 'Playfair Display', serif; font-size: 45px; font-weight: bold;  background-color: #00424a; padding: 7px; color: #FFFFFF;">Your Story Awaits:</h5>
+    <textarea id="body" name="body" style="background-color: #f0f3bd; font-family: 'Merriweather', serif; font-size: 22px; line-height: 1.5; color: #333333; padding: 10px; height: 300px;"></textarea>  
+    <div style="margin-top: 10px;">
+      <input type="submit" value="Save" class="btn" style="background-color: #d4a373(6, 79, 153, 0.7); color: #ffffff;">
+      <a href="/dashboard" class="btn" style="background-color: #d4a373;">Cancel</a>
+    </div>
+  </div>
+</div>
