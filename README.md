@@ -62,10 +62,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 Distributed under the MIT License. See LICENSE for more information.
 
-## Contact
-
-Mohamed khial - @mokhial27 - mokhial27@gmail.com
-
 Project Link: [https://github.com/mokhial27/storybooks](https://github.com/mokhial27/storybooks)
 
 ## Acknowledgements
