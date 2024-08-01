@@ -64,7 +64,7 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
 
-Mohamed Khaled - @mokhial27 - mokhial27@gmail.com
+Mohamed khial - @mokhial27 - mokhial27@gmail.com
 
 Project Link: [https://github.com/mokhial27/storybooks](https://github.com/mokhial27/storybooks)
 
