@@ -98,7 +98,7 @@ app.use('/', require('./routes/index'))
 app.use('/auth', require('./routes/auth'))
 app.use('/stories', require('./routes/stories'))
 
-    const PORT = process.env.PORT
+    const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT} and proccess of ${process.env.NODE_ENV})`);
